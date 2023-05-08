@@ -14,7 +14,9 @@ The following are the goals and objectives: analyse and list the elements or fea
 
 + **Surname** — the surname of a customer has no impact on their decision to leave the bank.
 
-+ **CreditScore** — can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank. Geography- a customer’s             location can affect their decision to leave the bank.
++ **CreditScore** — can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank. 
+
++ **Geography** - a customer’s  location can affect their decision to leave the bank.
 
 + **Gender** — it’s interesting to explore whether gender plays a role in a customer leaving the bank. We’ll include this column, too.
 
@@ -33,3 +35,31 @@ The following are the goals and objectives: analyse and list the elements or fea
 + **EstimatedSalary** — as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
 
 + **Exited** — whether or not the customer left the bank. This is what we have to predict. (0=No,1=Yes)
+
+## Working Flow 
++ Visualized and analyzed data related to customer churn by using visualization toolkits: seaborn, matplotlib.
+
++ 0Preprocessed and transforms categorical data for Machine Learning model training using pandas toolkit and normalization techniques.
+
++ Established Data Pipeline and ML Models: Random Forest, Logistic Regression, etc. and Evaluated Models using ROC,AUC.
+
+## Results and Evaluation
+
+
+|model| Accuracy|	Precision	|Recall|
+| - | - | - |  - |
+|0|	logistic Reg|	0.8080|	0.585799|	0.194499|
+|1|	Decision tree|	0.78|0.47| 0.73|
+|2|	Random Forest|	0.82|0.54|	0.72|
+|3|	SVC|	0.8572|	0.777372|	0.418468|
+
+Training score:  0.791875
+Testing score:  0.7845
+MSE score:  0.2155
+Accuracy: 0.78
+Precision: 0.47
+Recall: 0.73
+F1-score: 0.57
+
+
+
