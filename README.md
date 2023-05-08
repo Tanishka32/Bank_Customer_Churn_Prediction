@@ -53,13 +53,5 @@ The following are the goals and objectives: analyse and list the elements or fea
 |2|	Random Forest|	0.82|0.54|	0.72|
 |3|	SVC|	0.8572|	0.777372|	0.418468|
 
-Training score:  0.791875
-Testing score:  0.7845
-MSE score:  0.2155
-Accuracy: 0.78
-Precision: 0.47
-Recall: 0.73
-F1-score: 0.57
-
 
 
