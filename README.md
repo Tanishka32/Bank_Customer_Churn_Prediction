@@ -48,9 +48,9 @@ The following are the goals and objectives: analyse and list the elements or fea
 
 |model| Accuracy|	Precision	|Recall|
 | - | - | - |  - |
-|0|	logistic Reg| 0.72|	0.39|	0.72|
-|1|	Decision tree|	0.78|0.47| 0.73|
-|2|	Random Forest|	0.82|0.54|	0.72|
-|3|	Xgboost | 0.85| 0.66|0.53|
+|logistic Reg| 0.72|	0.39|	0.72|
+|Decision tree|	0.78|0.47| 0.73|
+|Random Forest|	0.82|0.54|	0.72|
+|Xgboost | 0.85| 0.66|0.53|
 
 
